@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Blue Dragons",
+    "tag": "BD",
+    "emblem": "🐉"
+  },
+  {
+    "name": "Shadow Wolves",
+    "tag": "SW",
+    "emblem": "🐺"
+  },
+  {
+    "name": "Phoenix",
+    "tag": "PH",
+    "emblem": "🔥"
+  },
+  {
+    "name": "Storm Knights",
+    "tag": "SK",
+    "emblem": "⚡"
+  },
+  {
+    "name": "Crystal Guardians",
+    "tag": "CG",
+    "emblem": "💎"
+  },
+  {
+    "name": "Dark Legion",
+    "tag": "DL",
+    "emblem": "🖤"
+  },
+  {
+    "name": "Golden Eagles",
+    "tag": "GE",
+    "emblem": "🦅"
+  },
+  {
+    "name": "Iron Titans",
+    "tag": "IT",
+    "emblem": "⚙️"
+  },
+  {
+    "name": "Moonlit Foxes",
+    "tag": "MF",
+    "emblem": "🌙"
+  },
+  {
+    "name": "Celestial Order",
+    "tag": "CO",
+    "emblem": "⭐"
+  }
+]

@@ -1,0 +1,116 @@
+{
+  "name": "ChatQuest",
+  "description": "Telegram RPG Community Bot — Level up your community",
+  "repository": "https://github.com/spicycodez/JustaBot",
+  "logo": "https://img.icons8.com/fluency/96/rpg.png",
+  "keywords": [
+    "telegram",
+    "bot",
+    "rpg",
+    "game",
+    "community",
+    "xp",
+    "leaderboard",
+    "guild",
+    "aiogram"
+  ],
+  "website": "https://github.com/spicycodez/JustaBot",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Telegram Bot Token from @BotFather",
+      "required": true
+    },
+    "BOT_USERNAME": {
+      "description": "Telegram Bot Username (without @)",
+      "required": true
+    },
+    "MONGODB_URI": {
+      "description": "MongoDB Atlas Connection String",
+      "required": true
+    },
+    "MONGODB_DB_NAME": {
+      "description": "MongoDB Database Name",
+      "required": false,
+      "value": "chatquest"
+    },
+    "REDIS_URL": {
+      "description": "Redis Connection URL",
+      "required": true
+    },
+    "REDIS_PASSWORD": {
+      "description": "Redis Password",
+      "required": false
+    },
+    "ADMIN_IDS": {
+      "description": "Comma-separated Telegram User IDs of admins",
+      "required": false,
+      "value": ""
+    },
+    "XP_COOLDOWN": {
+      "description": "XP cooldown in seconds between messages",
+      "required": false,
+      "value": "20"
+    },
+    "ANTI_SPAM_THRESHOLD": {
+      "description": "Spam detection threshold",
+      "required": false,
+      "value": "3"
+    },
+    "ANTI_SPAM_FREEZE_1": {
+      "description": "First spam freeze duration in seconds",
+      "required": false,
+      "value": "300"
+    },
+    "ANTI_SPAM_FREEZE_2": {
+      "description": "Second spam freeze duration in seconds",
+      "required": false,
+      "value": "600"
+    },
+    "ANTI_SPAM_FREEZE_3": {
+      "description": "Third spam freeze duration in seconds",
+      "required": false,
+      "value": "1800"
+    },
+    "MAX_DAILY_THANKS": {
+      "description": "Max /thanks commands per user per day",
+      "required": false,
+      "value": "5"
+    },
+    "REFERRAL_MIN_ACCOUNT_AGE_DAYS": {
+      "description": "Minimum account age for referrals",
+      "required": false,
+      "value": "7"
+    },
+    "SEASON_DURATION_DAYS": {
+      "description": "Season duration in days",
+      "required": false,
+      "value": "30"
+    },
+    "ENVIRONMENT": {
+      "description": "Environment name",
+      "required": false,
+      "value": "production"
+    },
+    "LOG_LEVEL": {
+      "description": "Logging level (DEBUG, INFO, WARNING, ERROR)",
+      "required": false,
+      "value": "INFO"
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "stack": "heroku-22",
+  "addons": [
+    "heroku-redis:mini",
+    "mongolab:sandbox"
+  ]
+}

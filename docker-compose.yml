@@ -1,0 +1,48 @@
+version: "3.8"
+
+services:
+  bot:
+    build: .
+    container_name: chatquest-bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    depends_on:
+      - mongodb
+      - redis
+    networks:
+      - chatquest-net
+
+  mongodb:
+    image: mongo:7
+    container_name: chatquest-mongo
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: chatquest
+      MONGO_INITDB_ROOT_PASSWORD: chatquest123
+    networks:
+      - chatquest-net
+
+  redis:
+    image: redis:7-alpine
+    container_name: chatquest-redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    command: redis-server --appendonly yes
+    volumes:
+      - redis-data:/data
+    networks:
+      - chatquest-net
+
+volumes:
+  mongo-data:
+  redis-data:
+
+networks:
+  chatquest-net:
+    driver: bridge

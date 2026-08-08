@@ -1,0 +1,222 @@
+[
+  {
+    "quest_id": "send_25_messages",
+    "title": "Chatterbox",
+    "description": "Send 25 messages in the chat",
+    "quest_type": "daily",
+    "target": 25,
+    "target_type": "messages_sent",
+    "reward_xp": 50,
+    "reward_coins": 25,
+    "difficulty": "easy"
+  },
+  {
+    "quest_id": "react_to_10_messages",
+    "title": "Reactions Master",
+    "description": "React to 10 messages with emojis",
+    "quest_type": "daily",
+    "target": 10,
+    "target_type": "reactions_given",
+    "reward_xp": 40,
+    "reward_coins": 20,
+    "difficulty": "easy"
+  },
+  {
+    "quest_id": "send_5_long_messages",
+    "title": "Storyteller",
+    "description": "Send 5 messages with 100+ characters",
+    "quest_type": "daily",
+    "target": 5,
+    "target_type": "long_messages_sent",
+    "reward_xp": 60,
+    "reward_coins": 30,
+    "difficulty": "easy"
+  },
+  {
+    "quest_id": "send_10_messages",
+    "title": "Social Butterfly",
+    "description": "Send 10 messages today",
+    "quest_type": "daily",
+    "target": 10,
+    "target_type": "messages_sent",
+    "reward_xp": 30,
+    "reward_coins": 15,
+    "difficulty": "easy"
+  },
+  {
+    "quest_id": "reply_to_10_people",
+    "title": "Conversationalist",
+    "description": "Reply to 10 different people",
+    "quest_type": "daily",
+    "target": 10,
+    "target_type": "replies_to_users",
+    "reward_xp": 100,
+    "reward_coins": 50,
+    "difficulty": "medium"
+  },
+  {
+    "quest_id": "welcome_2_new_members",
+    "title": "Welcoming Committee",
+    "description": "Welcome 2 new members to the chat",
+    "quest_type": "daily",
+    "target": 2,
+    "target_type": "new_members_welcomed",
+    "reward_xp": 120,
+    "reward_coins": 60,
+    "difficulty": "medium"
+  },
+  {
+    "quest_id": "share_3_files",
+    "title": "File Sharer",
+    "description": "Share 3 files, photos, or stickers in chat",
+    "quest_type": "daily",
+    "target": 3,
+    "target_type": "files_shared",
+    "reward_xp": 90,
+    "reward_coins": 45,
+    "difficulty": "medium"
+  },
+  {
+    "quest_id": "earn_300_xp_today",
+    "title": "XP Hunter",
+    "description": "Earn 300 XP today from any source",
+    "quest_type": "daily",
+    "target": 300,
+    "target_type": "daily_xp_earned",
+    "reward_xp": 150,
+    "reward_coins": 75,
+    "difficulty": "medium"
+  },
+  {
+    "quest_id": "host_trivia_event",
+    "title": "Event Host",
+    "description": "Host a trivia event in the chat",
+    "quest_type": "daily",
+    "target": 1,
+    "target_type": "events_hosted",
+    "reward_xp": 300,
+    "reward_coins": 150,
+    "difficulty": "hard"
+  },
+  {
+    "quest_id": "get_10_reactions",
+    "title": "Fan Favorite",
+    "description": "Receive 10 reactions on your messages",
+    "quest_type": "daily",
+    "target": 10,
+    "target_type": "reactions_received",
+    "reward_xp": 250,
+    "reward_coins": 125,
+    "difficulty": "hard"
+  },
+  {
+    "quest_id": "earn_500_xp",
+    "title": "XP Legend",
+    "description": "Earn 500 XP in a single day",
+    "quest_type": "daily",
+    "target": 500,
+    "target_type": "daily_xp_earned",
+    "reward_xp": 350,
+    "reward_coins": 175,
+    "difficulty": "hard"
+  },
+  {
+    "quest_id": "chat_300_messages",
+    "title": "Weekly Chatter",
+    "description": "Send 300 messages this week",
+    "quest_type": "weekly",
+    "target": 300,
+    "target_type": "weekly_messages_sent",
+    "reward_xp": 500,
+    "reward_coins": 250,
+    "difficulty": "medium"
+  },
+  {
+    "quest_id": "reach_level_5",
+    "title": "Level Up!",
+    "description": "Reach level 5 this week",
+    "quest_type": "weekly",
+    "target": 5,
+    "target_type": "level",
+    "reward_xp": 400,
+    "reward_coins": 200,
+    "difficulty": "medium"
+  },
+  {
+    "quest_id": "help_20_users",
+    "title": "Helping Hand",
+    "description": "Help 20 users this week (earn reputation)",
+    "quest_type": "weekly",
+    "target": 20,
+    "target_type": "reputation",
+    "reward_xp": 600,
+    "reward_coins": 300,
+    "difficulty": "medium"
+  },
+  {
+    "quest_id": "earn_5000_xp",
+    "title": "XP Machine",
+    "description": "Earn 5000 XP this week",
+    "quest_type": "weekly",
+    "target": 5000,
+    "target_type": "weekly_xp_earned",
+    "reward_xp": 1000,
+    "reward_coins": 500,
+    "difficulty": "hard"
+  },
+  {
+    "quest_id": "invite_5_users",
+    "title": "Recruiter",
+    "description": "Invite 5 users to the chat this week",
+    "quest_type": "weekly",
+    "target": 5,
+    "target_type": "invites_sent",
+    "reward_xp": 450,
+    "reward_coins": 225,
+    "difficulty": "medium"
+  },
+  {
+    "quest_id": "win_guild_battle",
+    "title": "Guild Warrior",
+    "description": "Win a guild battle this week",
+    "quest_type": "weekly",
+    "target": 1,
+    "target_type": "guild_battles_won",
+    "reward_xp": 800,
+    "reward_coins": 400,
+    "difficulty": "hard"
+  },
+  {
+    "quest_id": "complete_daily_streak_5_days",
+    "title": "Consistent Scholar",
+    "description": "Maintain a daily quest streak for 5 days",
+    "quest_type": "weekly",
+    "target": 5,
+    "target_type": "daily_streak_days",
+    "reward_xp": 700,
+    "reward_coins": 350,
+    "difficulty": "hard"
+  },
+  {
+    "quest_id": "welcome_10_new_members_weekly",
+    "title": "Ambassador",
+    "description": "Welcome 10 new members this week",
+    "quest_type": "weekly",
+    "target": 10,
+    "target_type": "new_members_welcomed_weekly",
+    "reward_xp": 550,
+    "reward_coins": 275,
+    "difficulty": "medium"
+  },
+  {
+    "quest_id": "play_20_minigames",
+    "title": "Gamer",
+    "description": "Play 20 minigames this week",
+    "quest_type": "weekly",
+    "target": 20,
+    "target_type": "minigames_played",
+    "reward_xp": 400,
+    "reward_coins": 200,
+    "difficulty": "medium"
+  }
+]

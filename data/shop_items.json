@@ -1,0 +1,200 @@
+[
+  {
+    "item_id": "title_village_hero",
+    "name": "Village Hero",
+    "description": "A noble title for aspiring heroes",
+    "category": "title",
+    "price": 500,
+    "currency": "coins",
+    "effect": {"type": "title", "value": "Village Hero"},
+    "rarity": "common",
+    "stackable": false
+  },
+  {
+    "item_id": "title_knight",
+    "name": "Knight",
+    "description": "A prestigious knightly title",
+    "category": "title",
+    "price": 2000,
+    "currency": "coins",
+    "effect": {"type": "title", "value": "Knight"},
+    "rarity": "rare",
+    "stackable": false
+  },
+  {
+    "item_id": "title_dragon_slayer",
+    "name": "Dragon Slayer",
+    "description": "The ultimate title of power",
+    "category": "title",
+    "price": 5000,
+    "currency": "coins",
+    "effect": {"type": "title", "value": "Dragon Slayer"},
+    "rarity": "epic",
+    "stackable": false
+  },
+  {
+    "item_id": "role_color_blue",
+    "name": "Blue Aura",
+    "description": "A calm blue glow around your name",
+    "category": "role_color",
+    "price": 300,
+    "currency": "coins",
+    "effect": {"type": "role_color", "value": "blue"},
+    "rarity": "common",
+    "stackable": false
+  },
+  {
+    "item_id": "role_color_gold",
+    "name": "Golden Aura",
+    "description": "A shining golden glow around your name",
+    "category": "role_color",
+    "price": 1000,
+    "currency": "coins",
+    "effect": {"type": "role_color", "value": "gold"},
+    "rarity": "rare",
+    "stackable": false
+  },
+  {
+    "item_id": "role_color_red",
+    "name": "Red Aura",
+    "description": "A fierce red glow around your name",
+    "category": "role_color",
+    "price": 800,
+    "currency": "coins",
+    "effect": {"type": "role_color", "value": "red"},
+    "rarity": "rare",
+    "stackable": false
+  },
+  {
+    "item_id": "xp_boost_2x_1hr",
+    "name": "2x XP Boost (1hr)",
+    "description": "Double your XP gains for 1 hour",
+    "category": "xp_boost",
+    "price": 1000,
+    "currency": "coins",
+    "effect": {"type": "xp_multiplier", "value": 2, "duration": 3600},
+    "rarity": "rare",
+    "stackable": true
+  },
+  {
+    "item_id": "xp_boost_3x_30min",
+    "name": "3x XP Boost (30min)",
+    "description": "Triple your XP gains for 30 minutes",
+    "category": "xp_boost",
+    "price": 2000,
+    "currency": "coins",
+    "effect": {"type": "xp_multiplier", "value": 3, "duration": 1800},
+    "rarity": "epic",
+    "stackable": true
+  },
+  {
+    "item_id": "loot_box_common",
+    "name": "Common Loot Box",
+    "description": "A box with common rewards inside",
+    "category": "loot_box",
+    "price": 200,
+    "currency": "coins",
+    "effect": {"type": "loot_box", "value": "common"},
+    "rarity": "common",
+    "stackable": true
+  },
+  {
+    "item_id": "loot_box_rare",
+    "name": "Rare Loot Box",
+    "description": "A box with rare and valuable rewards",
+    "category": "loot_box",
+    "price": 500,
+    "currency": "coins",
+    "effect": {"type": "loot_box", "value": "rare"},
+    "rarity": "rare",
+    "stackable": true
+  },
+  {
+    "item_id": "guild_buff_xp_boost",
+    "name": "Guild XP Boost",
+    "description": "All guild members get +25% XP for 24 hours",
+    "category": "guild_buff",
+    "price": 1500,
+    "currency": "coins",
+    "effect": {"type": "guild_xp_boost", "value": 1.25, "duration": 86400},
+    "rarity": "rare",
+    "stackable": false
+  },
+  {
+    "item_id": "guild_buff_coin_boost",
+    "name": "Guild Coin Boost",
+    "description": "All guild members get +25% coins for 24 hours",
+    "category": "guild_buff",
+    "price": 1200,
+    "currency": "coins",
+    "effect": {"type": "guild_coin_boost", "value": 1.25, "duration": 86400},
+    "rarity": "rare",
+    "stackable": false
+  },
+  {
+    "item_id": "name_effect_bold",
+    "name": "Bold Name",
+    "description": "Make your display name appear in bold",
+    "category": "name_effect",
+    "price": 800,
+    "currency": "coins",
+    "effect": {"type": "name_effect", "value": "bold"},
+    "rarity": "rare",
+    "stackable": false
+  },
+  {
+    "item_id": "name_effect_italic",
+    "name": "Italic Name",
+    "description": "Make your display name appear in italic",
+    "category": "name_effect",
+    "price": 600,
+    "currency": "coins",
+    "effect": {"type": "name_effect", "value": "italic"},
+    "rarity": "common",
+    "stackable": false
+  },
+  {
+    "item_id": "decoration_sparkle",
+    "name": "Sparkle Decoration",
+    "description": "Add sparkling decorations to your messages",
+    "category": "chat_decoration",
+    "price": 400,
+    "currency": "coins",
+    "effect": {"type": "chat_decoration", "value": "sparkle"},
+    "rarity": "common",
+    "stackable": false
+  },
+  {
+    "item_id": "decoration_fire",
+    "name": "Fire Decoration",
+    "description": "Add fire decorations to your messages",
+    "category": "chat_decoration",
+    "price": 600,
+    "currency": "coins",
+    "effect": {"type": "chat_decoration", "value": "fire"},
+    "rarity": "rare",
+    "stackable": false
+  },
+  {
+    "item_id": "power_double_coins",
+    "name": "Double Coins",
+    "description": "Double your coin earnings for 2 hours",
+    "category": "temporary_power",
+    "price": 700,
+    "currency": "coins",
+    "effect": {"type": "coin_multiplier", "value": 2, "duration": 7200},
+    "rarity": "rare",
+    "stackable": false
+  },
+  {
+    "item_id": "power_quest_skip",
+    "name": "Quest Skip",
+    "description": "Instantly complete one daily quest",
+    "category": "temporary_power",
+    "price": 500,
+    "currency": "coins",
+    "effect": {"type": "quest_skip", "value": 1},
+    "rarity": "common",
+    "stackable": true
+  }
+]

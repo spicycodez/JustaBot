@@ -1,0 +1,46 @@
+{
+  "trivia_questions": [
+    {"question": "What programming language was Python named after?", "options": ["A snake", "Monty Python", "A philosopher", "A river"], "answer": 1},
+    {"question": "What year was Telegram launched?", "options": ["2010", "2013", "2015", "2012"], "answer": 1},
+    {"question": "What does CPU stand for?", "options": ["Central Process Unit", "Central Processing Unit", "Computer Personal Unit", "Central Program Utility"], "answer": 1},
+    {"question": "Which planet is known as the Red Planet?", "options": ["Venus", "Jupiter", "Mars", "Saturn"], "answer": 2},
+    {"question": "What is the largest ocean on Earth?", "options": ["Atlantic", "Indian", "Arctic", "Pacific"], "answer": 3},
+    {"question": "Who painted the Mona Lisa?", "options": ["Van Gogh", "Picasso", "Leonardo da Vinci", "Michelangelo"], "answer": 2},
+    {"question": "What is the chemical symbol for gold?", "options": ["Go", "Gd", "Au", "Ag"], "answer": 2},
+    {"question": "How many bits are in a byte?", "options": ["4", "8", "16", "32"], "answer": 1},
+    {"question": "What is the speed of light in km/s (approximately)?", "options": ["150,000", "200,000", "300,000", "400,000"], "answer": 2},
+    {"question": "Which country has the most people?", "options": ["USA", "India", "China", "Russia"], "answer": 1},
+    {"question": "What gas do plants absorb from the atmosphere?", "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"], "answer": 2},
+    {"question": "What is the largest mammal?", "options": ["Elephant", "Blue Whale", "Giraffe", "Hippopotamus"], "answer": 1},
+    {"question": "In what year did World War II end?", "options": ["1943", "1944", "1945", "1946"], "answer": 2},
+    {"question": "What is the square root of 144?", "options": ["10", "11", "12", "14"], "answer": 2},
+    {"question": "Which element has the atomic number 1?", "options": ["Helium", "Hydrogen", "Oxygen", "Carbon"], "answer": 1},
+    {"question": "What is the capital of Japan?", "options": ["Osaka", "Kyoto", "Tokyo", "Yokohama"], "answer": 2},
+    {"question": "How many continents are there?", "options": ["5", "6", "7", "8"], "answer": 2},
+    {"question": "What does HTML stand for?", "options": ["Hyper Text Markup Language", "High Tech Modern Language", "Hyper Transfer Markup Language", "Home Tool Markup Language"], "answer": 0},
+    {"question": "Which animal is the fastest on land?", "options": ["Lion", "Cheetah", "Horse", "Gazelle"], "answer": 1},
+    {"question": "What is the smallest prime number?", "options": ["0", "1", "2", "3"], "answer": 2}
+  ],
+  "words": [
+    "python", "telegram", "adventure", "challenge", "quest",
+    "dragon", "knight", "wizard", "castle", "treasure",
+    "mystery", "thunder", "crystal", "shadow", "phoenix",
+    "eclipse", "horizon", "whisper", "storm", "ancient",
+    "galaxy", "nebula", "cipher", "enigma", "vortex",
+    "zenith", "aurora", "tempest", "sapphire", "obsidian"
+  ],
+  "math_difficulties": {
+    "easy": {
+      "range": [1, 50],
+      "ops": ["+"]
+    },
+    "medium": {
+      "range": [10, 100],
+      "ops": ["+", "-", "*"]
+    },
+    "hard": {
+      "range": [10, 500],
+      "ops": ["+", "-", "*", "/"]
+    }
+  }
+}
